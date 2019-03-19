@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Calculadora";
+}
+
+<h2>A minha calculadora maravilhosa</h2>
+
+
+@using(Html.BeginForm())
+{
+    @* <form></form> : faz o mesmo*@
+
+<table>
+    <tr>
+        <td colspan="5">
+            <input type="text" name="visor" readonly="readonly" value="0" />
+        </td>
+    </tr>
+    <tr>
+        <td>    <input type="submit" name="7" readonly="readonly" value="7" />  </td>
+        <td>    <input type="submit" name="8" readonly="readonly" value="8" />  </td>
+        <td>    <input type="submit" name="9" readonly="readonly" value="9" />  </td>
+        <td>    <input type="submit" name=":" readonly="readonly" value=":" />  </td>
+        <td>    <input type="submit" name="-" readonly="readonly" value="+/-" />  </td>
+    </tr>
+    <tr>
+        <td>    <input type="submit" name="4" readonly="readonly" value="4" />  </td>
+        <td>    <input type="submit" name="5" readonly="readonly" value="5" />  </td>
+        <td>    <input type="submit" name="6" readonly="readonly" value="6" />  </td>
+        <td>    <input type="submit" name="x" readonly="readonly" value="x" />  </td>
+        <td>    <input type="submit" name="C" readonly="readonly" value="C" />  </td>
+    </tr>
+    <tr>
+        <td>    <input type="submit" name="1" readonly="readonly" value="1" />  </td>
+        <td>    <input type="submit" name="2" readonly="readonly" value="2" />  </td>
+        <td>    <input type="submit" name="3" readonly="readonly" value="3" />  </td>
+        <td>    <input type="submit" name="-" readonly="readonly" value="-" />  </td>
+        <td rowspan="2" >    <input type="submit" name="=" readonly="readonly" value="=" />  </td>
+    </tr>
+    <tr>
+        <td colspan="2" >    <input type="submit" name="0" readonly="readonly" value="0" />  </td>
+        <td>    <input type="submit" name="," readonly="readonly" value="," />  </td>
+        <td>    <input type="submit" name="+" readonly="readonly" value="+" />  </td>
+    </tr>
+</table>
+}
+
