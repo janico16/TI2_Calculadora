@@ -16,3 +16,22 @@ textarea {
     max-width: 280px;
 }
 
+input {
+    width:40px;
+    height:40px;
+}
+
+#subm1{
+    height:83px;
+}
+
+#subm2 {
+    width:83px;
+    text-align:center;
+}
+
+#visor {
+    width:210px;
+    text-align:end;
+}
+
